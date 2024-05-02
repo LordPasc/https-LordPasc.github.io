@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTO MUSICAL Nº8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EVENTO MUSICAL Nº8</h1>
+        <nav>
+            <ul>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#aberrantes">Vídeos Aberrantes</a></li>
+                <li><a href="#gilipolleces">Gilipolleces</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="integrantes">
+            <h2>Integrantes del Grupo</h2>
+            <ul id="integrantesLista">
+                <li>Garzonazos</li>
+                <li>HP</li>
+                <li>FC</li>
+                <li>Charles Lomlarck</li>
+                <li>La Moreta</li>
+            </ul>
+        </section>
+        <section id="musica">
+            <h2>Música</h2>
+            <label for="nombreMusica">Nombre del Vídeo:</label>
+            <input type="text" id="nombreMusica" placeholder="Nombre del vídeo">
+            <label for="enlaceMusica">Enlace del Vídeo:</label>
+            <input type="text" id="enlaceMusica" placeholder="Pegar enlace aquí">
+            <button onclick="agregarVideo('musica')">Añadir Video</button>
+        </section>
+        <section id="aberrantes">
+            <h2>Vídeos Aberrantes</h2>
+            <label for="nombreAberrantes">Nombre del Vídeo:</label>
+            <input type="text" id="nombreAberrantes" placeholder="Nombre del vídeo">
+            <label for="enlaceAberrantes">Enlace del Vídeo:</label>
+            <input type="text" id="enlaceAberrantes" placeholder="Pegar enlace aquí">
+            <button onclick="agregarVideo('aberrantes')">Añadir Video</button>
+        </section>
+        <section id="gilipolleces">
+            <h2>Gilipolleces</h2>
+            <label for="nombreGilipolleces">Nombre del Vídeo:</label>
+            <input type="text" id="nombreGilipolleces" placeholder="Nombre del vídeo">
+            <label for="enlaceGilipolleces">Enlace del Vídeo:</label>
+            <input type="text" id="enlaceGilipolleces" placeholder="Pegar enlace aquí">
+            <button onclick="agregarVideo('gilipolleces')">Añadir Video</button>
+        </section>
+    </main>
+    <footer id="ranking"></footer>
+    <script src="script.js"></script>
+</body>
+</html>
